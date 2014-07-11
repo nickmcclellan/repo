@@ -32,27 +32,27 @@ $.get('data/data.json', function(strikes){
 	strikes.rows.forEach(function(strike){
 
 		if ( strike.level == "ISIS"){
-			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#750a58',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.time + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(isis).addTo(all).addTo(map);
+			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#750a58',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.date + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(isis).addTo(all).addTo(map);
 		}
 
 		if ( strike.level == "United States"){
-			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#1c0cf1',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.time + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(unitedStates).addTo(all).addTo(map);
+			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#1c0cf1',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.date + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(unitedStates).addTo(all).addTo(map);
 		}
 
 		if ( strike.level == "Contested"){
-			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#000000',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.time + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(contested).addTo(all).addTo(map);
+			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#000000',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.date + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(contested).addTo(all).addTo(map);
 		}
 
 		if ( strike.level == "Peshmerga Controlled"){
-			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#02b770',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.time + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(peshmerga).addTo(all).addTo(map);
+			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#02b770',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.date + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(peshmerga).addTo(all).addTo(map);
 		}
 
 		if ( strike.level == "Iraqi Government"){
-			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#520907',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.time + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(iraqiGovernment).addTo(all).addTo(map);
+			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#520907',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.date + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(iraqiGovernment).addTo(all).addTo(map);
 		}
 
 		if ( strike.level == "Unknown"){
-			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#520907',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.time + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(unknown).addTo(all).addTo(map);
+			var marker = new L.CircleMarker([strike.lat, strike.lon], {fillColor: '#520907',weight: '0', time: strike.date}).setRadius("20").bindPopup("<h2>" + strike.date + "</h2><p><strong>" + strike.city + "</strong></p><p>" + strike.desc + "</p>").addTo(unknown).addTo(all).addTo(map);
 		}
 
 		var strikes = $.parseJSON('[' + strike.lat + ',' + strike.lon + ']');
