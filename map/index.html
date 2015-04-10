@@ -152,11 +152,12 @@ var map = AmCharts.makeChart("chartdiv", {
 
 });
 
-function adjustBalloonText(graphDataItem, graph){
+function adjustBalloonText(graphDataItem, map){
     var value = graphDataItem.values.value;
-    console.log(value);
     return value;
 };
+    console.log(map);
+//    console.log(map.previouslyHovered.value);
 </script>
 </body>
 </html>
