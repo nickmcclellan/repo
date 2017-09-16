@@ -1,0 +1,140 @@
+body {
+	background: url(oldback.jpg) fixed;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	border: none;
+}
+A:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	filter: Alpha(Opacity=100);
+}
+A:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	filter: Alpha(Opacity=100);
+}
+A:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-decoration: none;
+	filter: Alpha(Opacity=100);
+}
+ul {
+	filter:Alpha(Opacity=100);
+	position:relative;
+}
+hr {
+	color:#000033;
+}
+#main {
+	font-family: Arial, Helvetica, sans-serif;
+	width:700px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	filter:Alpha(Opacity=75);
+}
+#content {
+	font-family: Arial, Helvetica, sans-serif;
+	width:800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	filter:Alpha(Opacity=75);
+}
+.navigation {
+	border: medium double #000066;
+	padding: 10px;
+	background:#FFFAFA;
+	width: 700px;
+}
+.blognavigation {
+	border: medium double #000066;
+	padding: 10px;
+	background:#FFFAFA;
+	width: 600px;
+}
+h2 {
+	font:bold 78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	text-transform:uppercase;
+	letter-spacing:.25em;
+}
+.date-header {
+	margin:0em 0 0.5em;
+	color: #000000;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	border: thin solid #000066;
+	padding: 3px;
+	width: 50%;
+	filter:Alpha(Opacity=100);
+	position:relative;
+}
+.post {
+	margin:.5em 0 1.5em;
+	padding-bottom:1.5em;
+	border: thin solid #000066;
+	padding: 10px;
+	background-color: #FFFAFA;
+}
+.text {
+	border: thin solid #000066;
+	padding: 10px;
+	background-color: #FFFAFA;
+}
+.post-title {
+	margin:0 0 -.5em;
+	font-size:140%;
+	color:#ad9;
+	font-weight: bolder;
+	filter: Alpha(Opacity=100);
+	position:relative;
+}
+.post img {
+	padding:4px;
+	border:1px solid #000066;
+	filter:Alpha(Opacity=100);
+	position:relative;
+}
+.post p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	filter:Alpha(Opacity=100);
+	position:relative;
+	margin-top: -0.5;
+}
+.back {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	position:relative;
+}
+img {
+	position:relative;
+	border: #000066;
+}
+.solid {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	position:relative;
+}
+marquee {
+	color: #000000;
+	font-family: "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	font-weight: bolder;
+	padding: 10px;
+	border: thin solid #000066;
+	width:700px;
+	background-color: #FFFFFF;
+	position:relative;
+}
+.update {
+	border: medium double #000066;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFAFA;
+	filter: Alpha(Opacity=85);
+	padding:5px;
+}
