@@ -1,0 +1,377 @@
+body {
+  background:url(../../stayback.gif) fixed;
+  margin:0;
+  padding:10px 10px;
+  text-align:center;
+  color:#FFFAFA;
+  font-size: /**/small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  }
+A:visited {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #999999;  
+}
+A:link {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFAFA;
+}
+A:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a img {
+  border-width:0;  
+}
+.emphasize {
+  line-height: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+}
+#seniorblog {
+  border:none;
+}
+/* Header
+----------------------------------------------- */
+#header {
+  width:660px;
+  margin:0 auto 10px;
+  border:thin solid #FFFAFA;
+  padding: 10px;
+  color: #FFFAFA;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #000000;  
+  filter: Alpha(Opacity=75);
+  opacity:1.0;
+  }
+#blog-title {
+  margin:0;
+  padding:20px 20px .25em;
+  font-size:200%;
+  color:#ccc;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  border-top: 1px solid #FFFAFA;
+  border-right: 1px solid #FFFAFA;
+  border-bottom: 0px solid #FFFAFA;
+  border-left: 1px solid #FFFAFA;
+  }
+#blog-title a {
+  color:#ccc;
+  text-decoration:none;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  }
+#blog-title a:hover {
+  color:#ad9;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  }
+#description {
+  margin:0;
+  padding:0 20px 20px;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#CCCCCC;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  border-top: 0 solid #FFFAFA;
+  border-right: 1px solid #FFFAFA;
+  border-bottom: 1px solid #FFFAFA;
+  border-left: 1px solid #FFFAFA;
+  }
+/* Content
+----------------------------------------------- */
+#content {
+  width:680px;
+  margin:0 auto;
+  padding:0;
+  text-align:left;
+  }
+#main {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width:430px;
+  float:left;
+  filter:Alpha(Opacity=65);
+  opacity:1.0;
+  }
+#sidebar {
+  width:220px;
+  float:left;
+  background-color: #000066;
+  filter: Alpha(Opacity=65);
+  opacity:1.0;
+  float:right;
+  border: thin solid #FFFAFA;
+  padding: 10px;
+  }
+/* Headings
+----------------------------------------------- */
+h2 {
+  margin:1.5em 0 .75em;
+  font:bold 78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#CCCCCC;
+  }
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin:0em 0 0.5em;
+  color: #000000;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  border: thin solid #000000;
+  font-size: 12px;
+  padding: 3px; 
+  position:relative;
+  opacity:1.0;
+  }
+.post {
+	margin:0.5em 0 1.5em;
+	border: thin solid #FFFAFF;
+	background-color: #003300;
+	opacity:1.0;
+	padding: 10px;
+  }
+.post-title {
+  margin:0;
+  padding:0;
+  font-size:140%;
+  line-height:1.4em;
+  color:#ad9;  
+  position:relative;
+  opacity:1.0;  
+  }
+.post-title a {
+  text-decoration:underline;
+  color:#ad9;  
+  position:relative;
+  opacity:1.0;  
+  }
+.post-title a:hover {
+  color:#FFFAFA;  
+  position:relative;
+  opacity:1.0;
+  text-decoration:none;
+  }
+.post div {
+  margin:0 0 .25em;
+  line-height:1.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+p.post-footer {
+  margin:-.25em 0 0;
+  color:#333;  
+  position:relative;
+  opacity:1.0; 
+  }
+.post-footer em, .comment-link {
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;
+  }
+.post-footer em {
+  font-style:normal;
+  color:#CCCCCC;
+  margin-right:.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+.comment-link {
+  margin-left:.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+.post img {
+  padding:4px;
+  border:1px solid #000;  
+  position:relative;
+  opacity:1.0;
+  }
+.post blockquote {
+  margin:1em 20px;  
+  position:relative;
+  opacity:1.0;
+  }
+.post blockquote p {
+  margin:.75em 0;  
+  position:relative;
+  opacity:1.0;
+  }
+/* Comments
+----------------------------------------------- */
+#comments {
+  border: thin solid #FFFAFF;
+  padding: 5px;
+  background-color: #003300;
+  }
+#comments h4 {
+  margin:1em 0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#999;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments h4 strong {
+  font-size:130%;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block {
+  margin:1em 0 1.5em;
+  line-height:1.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dt {
+  margin:.5em 0;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dd {
+  margin:.25em 0 0;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dd.comment-timestamp {
+  margin:-.25em 0 2em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dd p {
+  margin:0 0 .75em;  
+  position:relative;
+  opacity:1.0;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;  
+  position:relative;
+  opacity:1.0;
+  }
+/* Sidebar Content
+----------------------------------------------- */
+#sidebar ul {
+  margin:0 0 1em;
+  padding:0 0 1em;
+  border-bottom:1px solid #FFFAFA;
+  list-style:none; 
+  position:relative;
+  opacity:1.0;  
+  }
+#sidebar li {
+  margin:0;
+  padding:0 0 .25em 15px;
+  text-indent:-15px;
+  line-height:1.5em;  
+  position:relative;
+  opacity:1.0;  
+  }
+#sidebar p {
+  color:#FFFAFA;  
+  position:relative;
+  opacity:1.0;  
+  }
+/* Profile
+----------------------------------------------- */
+#profile-container {
+  margin:0 0 1em;
+  border-bottom:1px solid #FFFAFA;
+  padding-bottom:1em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-datablock {
+  margin:.5em 0 .5em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-img {
+  display:inline;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-img img {
+  float:left;
+  padding:4px;
+  border:1px solid #000;
+  margin:0 8px 3px 0;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-data {
+  margin:0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-data strong {
+  display:none;
+  }
+.profile-textblock {
+  margin:0 0 .5em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-link {
+  margin:0;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;  
+  }
+#links {
+  position:relative;
+  opacity:1.0;  
+  color: #FFFAFA;
+  }
+#blurp {
+  line-height: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #FFFAFA;
+  }
+/* Footer
+----------------------------------------------- */
+#footer {
+  width:100px;
+  padding: 10px;
+  position:relative;
+  top: 0px;
+  background-position: center center;
+  background-color: #000000;
+  filter: Alpha(Opacity=70);
+  opacity:1.0;
+  border: thin outset #FFFAFA;
+  }
+#footer p {
+  margin:0;
+  padding:5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #FFFAFA;
+  text-align: center;	
+  position:relative;
+  opacity:1.0;	
+  }
