@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://nickmcclellan.com/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://nickmcclellan.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://nickmcclellan.com/contact</loc></url>
+<url><loc>http://nickmcclellan.com/about</loc><lastmod>2010-12-29T21:11Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://nickmcclellan.com/social</loc><lastmod>2010-12-29T21:13Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://nickmcclellan.com/portfolio/graphics</loc></url>
+<url><loc>http://nickmcclellan.com/portfolio/online</loc></url>
+<url><loc>http://nickmcclellan.com/portfolio/video</loc></url>
+<url><loc>http://nickmcclellan.com/portfolio/writing</loc></url>
+</urlset>

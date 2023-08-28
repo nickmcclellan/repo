@@ -1,0 +1,382 @@
+body {
+	margin:0;
+	padding:10px 10px;
+	text-align:center;
+	color:#000000;
+	font-size: /**/small;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(http://www.arches.uga.edu/~yoshiboi/journal/fall01/jourback.jpg);
+	background-attachment: fixed;
+  }
+A:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;  
+}
+A:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+A:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	text-decoration: none;
+}
+a img {
+  border-width:0;  
+  }
+.emphasize {
+  line-height: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  }	
+/* Header
+----------------------------------------------- */
+#header {
+	width:660px;
+	margin:0 auto 10px;
+	border:thin solid #000000;
+	padding: 10px;
+	color: #FFFAFA;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity:1.0;
+	background-image: url(http://www.arches.uga.edu/~yoshiboi/journal/journalback.jpg);
+  }
+#blog-title {
+  margin:0;
+  padding:20px 20px .25em;
+  font-size:200%;
+  color:#FFFAFA;
+  letter-spacing:.2em;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  border-top: 1px solid #FFFAFA;
+  border-right: 1px solid #FFFAFA;
+  border-bottom: 0px solid #FFFAFA;
+  border-left: 1px solid #FFFAFA;
+  }
+#blog-title a {
+  color:#999999;
+  text-decoration:none;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  }
+#blog-title a:hover {
+  color:#666666;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  }
+#description {
+  margin:0;
+  padding:0 20px 20px;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#FFFAFA;
+  position:relative;
+  opacity:1.0;
+  top: 0px;
+  border-top: 0 solid #FFFAFA;
+  border-right: 1px solid #FFFAFA;
+  border-bottom: 1px solid #FFFAFA;
+  border-left: 1px solid #FFFAFA;
+  }
+#description a {
+	color:#999999;
+	}
+#description a:hover{
+	color:#666666;
+	}
+#description a:visited{
+	color:#666666;
+	}
+/* Content
+----------------------------------------------- */
+#content {
+  width:680px;
+  margin:0 auto;
+  padding:0;
+  text-align:left;
+  }
+#main {
+  font-family: Arial, Helvetica, sans-serif;
+  width:430px;
+  float:left;
+  opacity:1.0;
+  }
+#sidebar {
+	width:220px;
+	float:left;
+	opacity:1.0;
+	float:right;
+	border: thin solid #000000;
+	padding: 10px;
+	background-color: #4A3F45;
+  }
+/* Headings
+----------------------------------------------- */
+h2 {
+  margin:1.5em 0 .75em;
+  font:bold 78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#FFFAFA;
+  }
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin:0em 0 0.5em;
+  color: #000000;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 3px; 
+  position:relative;
+  opacity:1.0;
+  }
+.post {
+	margin:0.5em 0 1.5em;
+	border: thin solid #000000;
+	opacity:1.0;
+	padding: 10px;
+  }
+.post-title {
+  margin:0;
+  padding:0;
+  font-size:140%;
+  line-height:1.4em;
+  color:#000;  
+  position:relative;
+  opacity:1.0;  
+  }
+.post-title a {
+  text-decoration:underline;
+  color:#000000;  
+  position:relative;
+  opacity:1.0;  
+  }
+.post-title a:hover {
+  color:#666666;  
+  position:relative;
+  opacity:1.0;
+  text-decoration:none;
+  }
+.post div {
+  margin:0 0 .25em;
+  line-height:1.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+p.post-footer {
+  margin:-.25em 0 0;
+  color:#333333;  
+  position:relative;
+  opacity:1.0; 
+  }
+.post-footer em, .comment-link {
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;
+  }
+.post-footer em {
+  font-style:normal;
+  color:#000000;
+  margin-right:.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+.comment-link {
+  margin-left:.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+.post img {
+  padding:4px;
+  border:1px solid #000;  
+  opacity:1.0;
+  }
+.post blockquote {
+  margin:1em 20px;  
+  position:relative;
+  opacity:1.0;
+  }
+.post blockquote p {
+  margin:.75em 0;  
+  position:relative;
+  opacity:1.0;
+  }
+/* Comments
+----------------------------------------------- */
+#comments {
+  border: thin solid #000000;
+  padding: 5px;
+  }
+#comments h4 {
+  margin:1em 0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#000000;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments h4 strong {
+  font-size:130%;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block {
+  margin:1em 0 1.5em;
+  line-height:1.6em;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dt {
+  margin:.5em 0;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dd {
+  margin:.25em 0 0;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dd.comment-timestamp {
+  margin:-.25em 0 2em;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;
+  }
+#comments-block dd p {
+  margin:0 0 .75em;  
+  position:relative;
+  opacity:1.0;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;  
+  position:relative;
+  opacity:1.0;
+  }
+/* Sidebar Content
+----------------------------------------------- */
+#sidebar ul {
+  margin:0 0 1em;
+  padding:0 0 1em;
+  border-bottom:1px solid #FFFAFA;
+  list-style:none; 
+  position:relative;
+  opacity:1.0;  
+  }
+#sidebar li {
+  margin:0;
+  padding:0 0 .25em 15px;
+  text-indent:-15px;
+  line-height:1.5em;  
+  position:relative;
+  opacity:1.0;  
+  }
+#sidebar p {
+  color:#FFFAFA;  
+  position:relative;
+  opacity:1.0;  
+  }
+#sidebar a {
+	color:#FFFAFA;
+	}
+#sidebar a:hover{
+	color:#999999;
+	}
+#sidebar a:visited{
+	color:#999999;
+	}
+/* Profile
+----------------------------------------------- */
+#profile-container {
+  margin:0 0 1em;
+  border-bottom:1px solid #FFFAFA;
+  padding-bottom:1em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-datablock {
+  margin:.5em 0 .5em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-img {
+  display:inline;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-img img {
+  float:left;
+  padding:4px;
+  border:1px solid #000;
+  margin:0 8px 3px 0;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-data {
+  margin:0;
+  font:bold 78%/1.6em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;  
+  color:#FFFAFA;
+  }
+.profile-data strong {
+  display:none;
+  }
+.profile-textblock {
+  margin:0 0 .5em;  
+  position:relative;
+  opacity:1.0;  
+  }
+.profile-link {
+  margin:0;
+  font:78%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.1em;  
+  position:relative;
+  opacity:1.0;  
+  }
+#links {
+  position:relative;
+  opacity:1.0;  
+  color: #000000;
+  }
+#blurp {
+  line-height: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+/* Footer
+----------------------------------------------- */
+#footer {
+  width:100px;
+  padding: 10px;
+  position:relative;
+  top: 0px;
+  background-position: center center;
+  opacity:1.0;
+  border: thin outset #000000;
+  }
+#footer p {
+  margin:0;
+  padding:5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;	
+  position:relative;
+  opacity:1.0;	
+  }

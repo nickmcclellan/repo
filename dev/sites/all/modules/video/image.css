@@ -1,0 +1,15 @@
+/* $Id: image.css,v 1.1.2.1 2011/01/08 05:18:58 heshanmw Exp $ */
+
+/**
+ * Image upload widget.
+ */
+div.image-preview {
+  float: left; /* LTR */
+  padding: 0 10px 10px 0; /* LTR */
+}
+div.image-widget-data {
+  float: left; /* LTR */
+}
+div.image-widget-data input.text-field {
+  width: auto;
+}

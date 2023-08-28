@@ -1,0 +1,25 @@
+<?php
+// $Id: videoftp.install,v 1.1.4.4 2010/12/05 12:56:19 heshanmw Exp $
+
+/**
+ * Implementation of hook_install().
+ */
+function videoftp_install() {
+  drupal_load('module', 'content');
+  content_notify('install', 'videoftp');
+}
+
+function videoftp_uninstall() {
+  drupal_load('module', 'content');
+  content_notify('uninstall', 'videoftp');
+}
+
+function videoftp_enable() {
+  drupal_load('module', 'content');
+  content_notify('enable', 'videoftp');
+}
+
+function videoftp_disable() {
+  drupal_load('module', 'content');
+  content_notify('disable', 'videoftp');
+}

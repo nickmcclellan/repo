@@ -1,0 +1,18 @@
+links=<html>
+<head></head>
+<body>Ringling College of Art and Design: <a href="http://www.ringling.edu/">http://www.ringling.edu/</a><br>
+Women in Focus: <a href="http://www.womeninfocus.us/">http://www.womeninfocus.us/</a><br>
+Portfolio of Elizabeth Ann Wilkerson, portrait photographer: <a href="http://webspace.ringling.edu/~ewilkers/portfolio/">http://webspace.ringling.edu/~ewilkers/portfolio/</a><br>
+Loretta Lux: <a href="http://www.lorettalux.de/">http://www.lorettalux.de/</a><br>
+High Museum of Art Atlanta: <a href="http://www.high.org/">http://www.high.org/</a><br>
+The John and Mable Ringling Museum of Art: <a href="http://ringling.org/">http://ringling.org/</a><br>
+Taryn Daley Photography: <a href="http://www.taryndaleyphotography.com">http://www.taryndaleyphotography.com</a><br>
+New York Times | Women: Louis Bourgeois: <a href="http://www.nytimes.com/library/photos/leibovitz/bourgeois.html">http://www.nytimes.com/library/photos/leibovitz/bourgeois.html</a><br>
+Greg Gorman Photography: <a href="http://www.greggormanphotography.com/">http://www.greggormanphotography.com/</a><br>
+Steven Katzman Photography: <a href="http://stevenkatzmanphotography.com/">http://stevenkatzmanphotography.com/</a><br>
+Sarasota, Fla.: <a href="http://www.sarasotafl.org/">http://www.sarasotafl.org/</a><br>
+Atlanta Photography Group: <a href="http://www.apgphoto.org/">http://www.apgphoto.org/</a><br>
+The Great American Photography Workshops: <a href="http://gaphotoworks.com/site/index.php">http://gaphotoworks.com/site/index.php</a><br>
+Webmaster Nick McClellan's blog: <a href="http://endlessone.com/blog">http://endlessone.com/blog</a><br>
+Artist Nick Orban: <a href="http://www.myspace.com/nickorban">http://www.myspace.com/nickorban</a></body>
+</html>

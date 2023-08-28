@@ -1,0 +1,113 @@
+body {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+.nav {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	background-color: #000000;
+	display:block;
+	line-height: normal;
+	}
+a.nav:link    { 
+	color:#e19d22; text-decoration: none;
+	}
+a.nav:visited { 
+	color:#e19d22; text-decoration: none;
+	}
+a.nav:hover   { 
+	background:#000000; color:#ffffff; text-decoration: none;
+	}
+#body {
+	width: 720px;
+	padding: 10px;
+	margin: 10px auto;
+	background-color: #78b5ec;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	}
+#resumebody {
+	width: 720px;
+	padding: 10px;
+	margin: 10px auto;
+	background-color: #78b5ec;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+	padding-top: 50px;
+	background-image: url(resumeback.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	}
+.title {
+	width: 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	text-align: right;
+	margin-left: 320px;
+	}
+.text {
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	}
+/* About */
+#about {
+	}
+#about img {
+	margin-left: 10px;
+}
+/* Resume */
+#resume {
+	font-family: "Times New Roman", Times, serif;
+	line-height:normal;
+	font-size: 18px;
+	}
+#resume a:link {
+	color:#000000
+	}
+#resume a:hover {
+	text-decoration:none
+	}
+#resume a:visited {
+	color:#999999;
+	}
+.header {
+	margin-left: 50px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	}
+.field {
+	margin-left: 50px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	}
+.fieldbullet {
+	margin-left: 70px;
+	padding-left: 10px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.objective {
+	font-size: 22px;
+	text-align: right;
+	}

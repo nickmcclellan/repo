@@ -1,0 +1,16 @@
+; $Id: videoupload.info,v 1.1.2.3 2010/12/05 16:34:52 heshanmw Exp $
+
+name = Video Upload
+description = Handle video upload for video module using fields.
+package = Video
+core = 7.x
+dependencies[] = video
+files[] = videoupload.module
+files[] = videoupload.field.inc
+files[] = videoupload.install
+; Information added by drupal.org packaging script on 2011-01-08
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "video"
+datestamp = "1294489659"
+

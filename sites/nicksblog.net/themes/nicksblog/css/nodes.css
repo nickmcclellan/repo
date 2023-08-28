@@ -1,0 +1,182 @@
+/* $Id: nodes.css,v 1.6 2009/11/02 15:37:29 johnalbin Exp $ */
+
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node /* Node wrapper */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished div.unpublished,
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. */ {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
+/* All nodes are given a node-type-FOO class that describes the type of
+ * content that it is. If you create a new content type called
+ * "my-custom-type", it will receive a "node-type-my-custom-type" class.
+ */
+.node-type-page /* Page content node */ {
+}
+
+.node-type-story /* Story content node */ {
+}
+
+.node h2.title /* Node title */ {
+}
+
+.section h1.title,
+.section .node h2.title {
+  color: #18315F;
+  font-family: font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-size: 2.2em;
+  line-height: 1em;
+  text-shadow: #666 3px 3px 3px;
+}
+
+.section h2.title a {
+  color: #18315F;
+  text-decoration:none;	
+}
+
+.section .title a:hover,
+.section .title a:focus {
+  color:#44536D;
+  text-decoration:none;
+}
+
+.section .node-type-blog .node-header .node-date {
+  font-family: "GothamRounded-Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #FFFAFA;
+  text-shadow: #000 0 -1px 0;
+}
+
+.section .node-type-blog .node-header .node-date .node-time {
+  font-size: 0.65em;
+  margin: 0 0 0 0.25em;
+}
+
+.node-header .disqus_comments a {
+  text-decoration:none;
+}
+
+.marker /* "New" or "Updated" marker for content that is new or updated for the current user */ {
+  color: #c00;
+}
+
+.node .picture /* The picture of the node author */ {
+}
+
+.node.node-unpublished .picture,
+.comment.comment-unpublished .picture {
+  position: relative; /* Otherwise floated pictures will appear below the "Unpublished" text. */
+}
+
+.node .meta /* Wrapper for submitted and terms data */ {
+}
+
+.node .submitted /* The "posted by" information */ {
+}
+
+.node .terms /* Node terms (taxonomy) */ {
+}
+
+.node .content /* Node's content wrapper */ {
+}
+
+.node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+}
+
+.section .node ul.links li.blog_usernames_blog {
+  display:none;	
+}
+
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+/**
+ * Blog topic styling
+ */
+
+.node-type-page .node-header {
+  background: url(../images/page_back.png);
+}
+
+
+.page-personal .node-header,
+.node-type-blog .node-term-personal,
+.node-type-blog .node-term-columbia,
+.node-type-blog .node-term-california {
+  background: url(../images/personal_back.png);
+}
+
+.page-film .node-header,
+.node-type-blog .node-term-film {
+  background: url(../images/film_back.png);
+}
+
+.page-news .node-header,
+.node-type-blog .node-term-news,
+.node-type-blog .node-term-technology,
+.node-type-blog .node-term-morning-edition,
+.node-type-blog .node-term-politics {
+  background: url(../images/news_back.png);
+}
+
+.page-tv .node-header,
+.node-type-blog .node-term-television {
+  background: url(../images/tv_back.png);
+}
+
+.page-music .node-header,
+.node-type-blog .node-term-music {
+  background: url(../images/music_back.png);
+}
+
+.page-personal .node-header {
+  background: url(../images/personal_back.png);
+}
+
+.page-film .node-header {
+  background: url(../images/film_back.png);
+}
+
+.page-news .node-header {
+  background: url(../images/news_back.png);
+}
+
+.page-tv .node-header {
+  background: url(../images/tv_back.png);
+}
+
+.page-music .node-header {
+  background: url(../images/music_back.png);
+}

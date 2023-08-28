@@ -1,0 +1,37 @@
+body {
+	padding: 50px 0px 0px;
+	text-align: center;
+	background: #000000;
+	color:#FFFFFF;
+	margin: 0px;
+	}
+/* Content */
+#content {
+	width: 705px;
+	height: 520px;
+	margin: auto;
+	border: medium double #FFFAFA;
+	}
+#title {
+	width: 150px;
+	height: 100px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	}
+.navbox {
+	width: 545px;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	}
+#body {
+	width: 705px;
+	height: 320px;
+	}
+/* Under Construction */
+.navbox p {
+	font: Georgia, "Times New Roman", Times, serif;
+	color: #FFFAFA;
+	font-size: 25px;
+	}

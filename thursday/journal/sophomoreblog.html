@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>The Sophomore Year Blog</title>
+<SCRIPT LANGUAGE="JavaScript">
+var howMany = 1;
+var page = new Array(howMany+1);
+
+page[0]="fall02/sophomoreblog1.html";
+page[1]="spring03/sophomoreblog2.html";
+
+function rndnumber(){
+var randscript = -1;
+while (randscript < 0 || randscript > howMany || isNaN(randscript)){
+randscript = parseInt(Math.random()*(howMany+1));
+}
+return randscript;
+}
+quo = rndnumber();
+quox = page[quo];
+window.location=(quox);
+// End -->
+</SCRIPT>
+</head>
+<body>
+</body>
+</html>

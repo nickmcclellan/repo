@@ -1,0 +1,12 @@
+; $Id: scrollable.info,v 1.1 2009/05/28 22:11:50 cptncauliflower Exp $
+name = Scrollable
+description = Provide Views Style plugin for jScrollable.
+core = 6.x
+package = Views
+dependencies[] = views
+; Information added by drupal.org packaging script on 2010-07-11
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "scrollable"
+datestamp = "1278835593"
+

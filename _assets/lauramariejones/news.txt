@@ -1,0 +1,8 @@
+news=<html>
+<body>
+<head></head>
+<p class="date-header">August 17, 2007</p><br>
+<p>Welcome to my new Web site. There is a lot to see so please look around. Please visit the contact page to get in touch with me.</p>
+<p>There will be more very soon!</p>
+</body>
+</html>

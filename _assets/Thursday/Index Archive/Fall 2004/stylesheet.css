@@ -1,0 +1,41 @@
+<style type="text/css">
+p {font-family: Arial, Helvetica;
+   color: #FF9999}
+A:visited {font-family: Arial, Helvetica;
+ color: #9999CC}
+A:link {font-family: Arial, Helvetica;
+        color: #FF9999}
+A:hover {font-family: Arial, Helvetica;
+         color: #FFFAFA}
+body {background-color: #1A0602;
+      color: #FF9999;
+      font-family: Arial, Helvetica;
+      scrollbar-3dlight-color: #9999CC; 
+      scrollbar-arrow-color: #FFFAFA;
+      scrollbar-base-color: black;
+      scrollbar-darkshadow-color: #9999CC;
+      scrollbar-face-color: #1A0602;
+      scrollbar-highlight-color: #FFFAFA;
+      scrollbar-shadow-color: #9999CC}
+table {font-family: Arial, Helvetica;
+       color: #FF9999}
+table.dead {border-style: solid}
+marquee {font-family: Arial, Helvetica;
+         color: #FFFAFA}
+div {font-family: Arial, Helvetica;
+     color: #FF9999}
+ul {font-family: Arial, Helvetica;
+    color: #FF9999}
+ul.blog {font-family: Arial, Helvetica;
+         color: #FFFAFA}
+blockquote {font-family: Arial, Helvetica;
+  color: #FF9999}
+b.date {font-family: Arial, Helvetica;
+        color: #FFFAFA}
+b.music {font-family: Arial, Helvetica;
+         color: #FFFAFA}
+hr.endentry {width: 50%;
+   color: #FFFAFA}
+hr.midentry {width: 25%;
+   color: #FFFAFA}
+</style>
