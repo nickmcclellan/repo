@@ -33,9 +33,9 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'https://facebook.com/nick.mcclellan/'
-  x-twitter_url: 'https://twitter.com/nickmcclellan/'
   instagram_url: 'https://www.instagram.com/nickmcclellan/'
+  linkedin_url: 'https://www.linkedin.com/in/nick-mcclellan-21b27517'
+  facebook_url: 'https://facebook.com/nick.mcclellan/'
   snapchat_url: ''
   youtube_url: 'https://www.youtube.com/user/basuraboi3'
   google-plus_url: ''
@@ -58,7 +58,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: 'https://www.linkedin.com/in/nick-mcclellan-21b27517'
+  x-twitter_url: 'https://twitter.com/nickmcclellan/'
 
 color_settings:
   background_color: '#ffffff'
