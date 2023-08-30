@@ -62,7 +62,7 @@ social_settings:
   x-twitter_url: 'https://twitter.com/nickmcclellan/'
 
 color_settings:
-  background_color: '#83af5a'
+  background_color: '#F24BA7'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
