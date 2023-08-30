@@ -1,7 +1,7 @@
 ---
 title: 'Hello World'
 date: 2023-08-29 00:00:00
-description: 
+description: It's been a long time, but I used to be good at this. Having a blog can give you a world of topics to tackle, but to start I'll just start with one&#x3b; Why I'm back.
 featured_image: '/images/blog/2023/08/demo-square.jpg'
 ---
 
