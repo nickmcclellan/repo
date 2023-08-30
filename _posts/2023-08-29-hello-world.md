@@ -13,7 +13,7 @@ It's been a long time, but I used to be good at this. Having a blog can give you
 
 I have kept my namesake registered, but languished at paying for hosting and keeping up with maintaining a code base. I used to be such a nerd about that, but what a bother.
 
-Fortunately, I learned a few tricks in my career, including pulling off an open-source deployment of a Jekyll-powered Portfolio website. Who wants a CMS when there's perfectly-servicable plain text? 
+Fortunately, I learned a few tricks in my career, including pulling off an open-source deployment of a Jekyll-powered portfolio website. Who wants a CMS when there's perfectly-servicable plain text? 
 
 Along with my dusted-off GitHub handle, I hope to build out a new website to showcase my professional portfolio, highlight my personal projects, and perhaps share some film geek-aspiring thoughts.
 
