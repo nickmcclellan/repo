@@ -34,7 +34,7 @@ contact_settings:
 
 social_settings:
   facebook_url: 'https://facebook.com/nick.mcclellan/'
-  x-twitter_url: 'https://twitter.com/nickmcclellan/'
+  twitter_url: 'https://twitter.com/nickmcclellan/'
   instagram_url: 'https://www.instagram.com/nickmcclellan/'
   snapchat_url: ''
   youtube_url: 'https://www.youtube.com/user/basuraboi3'
