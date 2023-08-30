@@ -18,7 +18,7 @@ menu_settings:
 #      url: '/contact'
 
 footer_settings:
-  footer_tagline: &#169; 2023
+  footer_tagline: This is my footer tagline.
 
 hero_settings:
   overlay_opacity: 0.8
