@@ -33,8 +33,8 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  instagram_url: 'https://www.instagram.com/nickmcclellan/'
   linkedin_url: 'https://www.linkedin.com/in/nick-mcclellan-21b27517'
+  instagram_url: 'https://www.instagram.com/nickmcclellan/'
   facebook_url: 'https://facebook.com/nick.mcclellan/'
   snapchat_url: ''
   youtube_url: 'https://www.youtube.com/user/basuraboi3'
