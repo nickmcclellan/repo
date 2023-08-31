@@ -75,7 +75,7 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,600,700" rel="stylesheet">'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Quicksand:200,300,500,600" rel="stylesheet">'
   title_font: '"Quicksand", sans-serif;'
   body_font: '"Quicksand", sans-serif;'
   regular_weight: 400
