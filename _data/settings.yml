@@ -18,7 +18,7 @@ menu_settings:
 #      url: '/contact'
 
 footer_settings:
-  footer_tagline: Fasten your seat belts. It's going to be a bumpy night.
+  footer_tagline: &ldquo; No matter where you run, you just end up running into yourself. &rdquo; 
 
 hero_settings:
   overlay_opacity: 0.7
